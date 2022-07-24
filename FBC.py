@@ -105,7 +105,7 @@ _______  ______ _______ _______ _     _ _______  ______
 |       |_____/ |_____| |       |____/  |______ |_____/
 |_____  |    \_ |     | |_____  |    \_ |______ |    \_
 ______________________________________________________
-Github : https://github.com/HafizdXD
+Github   : https://github.com/HafizdXD
 Wa       : 085758862225
 version 0.1\n""")
 ###LOGIN KUKIS
@@ -141,7 +141,6 @@ def login():
 def gimana():
 	try:
 		os .system ('clear')
-		os.system("git pull")
 		cookie = input("\n%s#%s cookies : %s"%(M,P,HA))
 		memek=requests.get("https://business.facebook.com/business_locations", headers = {"user-agent": "Mozilla/5.0 (Linux; Android 6.0.1; Redmi 4A Build/MMB29M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.92 Mobile Safari/537.36","referer": "https://www.facebook.com/","host": "business.facebook.com","origin": "https://business.facebook.com","upgrade-insecure-requests" : "1","accept-language": "id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7","cache-control": "max-age=0","accept":"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*[inserted by cython to avoid comment closer]/[inserted by cython to avoid comment start]*;q=0.8","content-type":"text/html; charset=utf-8"}, cookies = {"cookie":cookie}) 
 		find_token = re.search("(EAAG\w+)", memek.text)
