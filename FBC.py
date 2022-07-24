@@ -49,7 +49,6 @@ try:
 	open('.proxy_bokep.txt','w').write(prox)
 except Exception as e:
 	print('[[\x1b[1;92m•\x1b[1;97m] [\x1b[1;96mGaruk_Peler')
-prox=open('.prox.txt','r').read().splitlines()
 #### WARNA PELER
 P = '\x1b[1;97m'
 M = '\x1b[1;91m'
